@@ -35,7 +35,6 @@ def main():
 
     create(args.out, w, h, *points)
 
-
 def create(file: str, w: int, h: int, *points: Tuple[int, int, str]):
     def point(p: Tuple[int, int, str]):
         x, y, c = p
